@@ -1,0 +1,62 @@
+.container{
+    max-width: 70%;
+    margin: 50px auto;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: lightskyblue;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+p{
+    margin-bottom: 5px;
+}
+
+img{
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+}
+
+form{
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: 70%;
+}
+
+input[type='text']{
+    flex: 10;
+    padding: 10px;
+    border: 1px solid lightslategray;
+    border-radius: 4px;
+}
+
+button{
+    padding: 10px, 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s all ease;
+}
+
+button:hover{
+    background-color: rgb(1, 1, 119);
+}
+
+@media (max-width: 900px){
+    .container{
+        max-width: 100%;
+        border-radius: 0;
+    }
+    
+}
